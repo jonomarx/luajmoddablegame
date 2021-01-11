@@ -1,0 +1,5 @@
+table:setValue("frameWidth", 500)
+table:setValue("frameHeight", 500)
+table:setValue("frameResizable", false)
+table:setValue("frameCloseOperation", luajava.newInstance("javax.swing.JFrame").EXIT_ON_CLOSE)
+table:setValue("frameTitle", "This is a Mod")
